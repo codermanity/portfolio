@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manikant Thakur</title>
+    <link rel="stylesheet" href="stock/style.css" class="ref">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="icon" type="image/x-icon" href="stock/MT-tab.ico">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <header>
+       <nav>
+            <div class="logo"><h1 class="animate__heartBeat"><img src="stock/cm-logo.png" alt="CM_Logo" width="40" height="35">  CODERMANITY</h1></div>
+            <!-- <div class="logo"><h1 class="animate__heartBeat"><img src="stock/cm-logo.png" alt="CM_Logo" width="40" height="35">  CODERMANITY</h1> -->
+				<!-- <h4><p>"Code for <span class = "change_content2"></span>"</p></h4> -->
+			<!-- </div>-->
+			
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="mySelf.html" target="_blank">About</a></li>
+					<li><a href="https://www.youtube.com/codermanity/" target="codermanity">Video</a></li>
+					<!-- <a href="https://www.github.com/codermanity/" target="codermanity">contact</a> -->
+					<li><a href="https://t.me/codermanity/" target="codermanity">contact</a></li>
+				</ul>
+
+			</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> 
+
+        <main>
+            <section>
+                <h3>Welcome to CoderManity</h3>
+                <h1>I'm Mani<span class = "change_content"></span></h1>
+                <p>"Code for <span class = "change_content2"></span>"</p>
+                <a href="mySelf.html" target="_blank" class="btnone">MY SELF</a>
+                <a href="stock/MANI-Resume.pdf" download = "MANIKANT CV" target="_blank" class="btntwo">𝗥𝗘𝗦𝗨𝗠𝗘</a>
+			
+				<div><a></a></div>
+				<div><a></a></div>
+				<div><a></a></div>
+			
+				<h4>Made with ❤️ by Manikant Thakur</h4>
+
+			</section>
+        </main>  
+    </header>
+	
+<!-----JavaScript for Toggle Menu---->
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+	navLinks.style.right="0";
+	}
+	function hideMenu(){
+	navLinks.style.right="-200px";
+	}
+</script>
+
+</body>
+</html>
+
